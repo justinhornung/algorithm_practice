@@ -7,11 +7,11 @@
 // Output: false
 
 const string = "i hate $ but i love money i know i know im crazy";
-function Show(string) {
+function show(string) {
   return Boolean(string.match(/\$/));
   //   return true;
   // } else {
   //   return false;
   // }
 }
-console.log(Show(string));
+console.log(show(string));
